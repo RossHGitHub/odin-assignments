@@ -31,6 +31,11 @@ li {
 a:link {
     text-decoration: none;
     color: white;
+    
+}
+
+a:visited {
+    color: white;
 }
 
 ul {
@@ -141,7 +146,7 @@ button {
 }
 
 .lowerblue {
-    width: 1100px;
+    width: 1200px;
     height: 150px;
     background-color:#3882F6;
     border-radius: 10px;
@@ -156,4 +161,14 @@ button {
     border-width: 3px;
     border-style: solid;
     border-color: white;
+}
+
+footer {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #1F2937;
+    color: white;
 }
