@@ -121,7 +121,7 @@ button {
     font-size:36px;
     font-weight: 100;
     width: 800px;
-    color: rgb(102, 102, 102);
+    color: rgb(56, 56, 56);
 }
 
 .author {
@@ -130,4 +130,30 @@ button {
     justify-content: end;
     font-weight: 700;
     font-size: 20px;
+}
+
+.lowercontainer {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.lowerblue {
+    width: 1100px;
+    height: 150px;
+    background-color:#3882F6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px;
+    font-size: 18px;
+}
+
+.lowerbutton {
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
 }
